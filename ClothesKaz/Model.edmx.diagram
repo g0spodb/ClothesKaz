@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9b846240f7b547b881085fb403a3336d" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="KlimCloModel.Clothes" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="KlimCloModel.Role" Width="1.5" PointX="2.75" PointY="5.375" />
+        <EntityTypeShape EntityType="KlimCloModel.Size" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="KlimCloModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="KlimCloModel.TypeClothes" Width="1.5" PointX="0.75" PointY="5.375" />
+        <EntityTypeShape EntityType="KlimCloModel.User" Width="1.5" PointX="5" PointY="5" />
+        <AssociationConnector Association="KlimCloModel.FK_Clothes_Size" />
+        <AssociationConnector Association="KlimCloModel.FK_Clothes_TypeClothes" />
+        <AssociationConnector Association="KlimCloModel.FK_User_Role" />
+        <EntityTypeShape EntityType="KlimCloModel.Magazine" Width="1.5" PointX="0.75" PointY="7.875" />
+        <AssociationConnector Association="KlimCloModel.FK_Clothes_Magazine" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
